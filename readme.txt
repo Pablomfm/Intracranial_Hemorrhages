@@ -12,7 +12,7 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 
 
 2. PROJECT WORKFLOW SUMMARY
---------------------------
+---------------------------
 
 	2.1 (Anonymization, Cleaning and Curation)
 	------------------------------------------
@@ -27,19 +27,22 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 
 
 	2.2 (Data Loading, Analysis and Modeling)
-	--------------------------------
+	-----------------------------------------
 
 	--(A. Loading the dataset in python)--> Options to load the dataset in R.
 	--(B. Loading the dataset in R)--> Options to load the dataset in python.
 
-	--(4. EDA & Descriptive Statistics)--> EDA & Descriptive Statistics
-	--(5. PCAs & SVM)--> PCAs-SVM model
-	--(6. Kernel Regressions)--> Kernel Regressions models	
-	--(7. K-Nearest Neighbors)--> KNN models
-	--(8. Association Algorithms)--> APPROACH and Eclat results.
-	--(9. Decision Trees & Random Forest)--> Decision Trees and Random Forest models.
-	--(10. Bayesian Networks)--> Bayesian models.
-	--(11. Deep Neural Networks)--> Deep neural networks models.
+	--(4.1. EDA & Descriptive Statistics of Outcomes)--> EDA & Descriptive Statistics of outcomes
+	--(4.2. EDA & Descriptive Statistics of Predictors)--> EDA & Descriptive Statistics of predictors
+	--(5. Inferential Statistics)--> Hypothesis contrasts
+
+	--(6. PCAs & SVM)--> PCAs-SVM model
+	--(7. Kernel Regressions)--> Kernel Regressions models	
+	--(8. K-Nearest Neighbors)--> KNN models
+	--(9. Association Algorithms)--> APPROACH and Eclat results.
+	--(10. Decision Trees & Random Forest)--> Decision Trees and Random Forest models.
+	--(11. Bayesian Networks)--> Bayesian models.
+	--(12. Deep Neural Networks)--> Deep neural networks models.
 
 
 
@@ -132,7 +135,7 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 		3. Change to categories when appropriate.
 		4. Check datatypes and save in a hdf5 file.
 
-    	- '4. EDA & Descriptive Statistics': exploring data analysis of the variables contained in 'ICH_cured.rda'. This Notebook contains the code for the following tasks:
+    	- '4.1 EDA & Descriptive Statistics of Outcomes': exploring data analysis of the variables contained in 'ICH_cured.rda'. This Notebook contains the code for the following tasks:
 		1. Load the database
 		2. Check variables: datatypes and values
 		3. Change datatypes when appropriate.
