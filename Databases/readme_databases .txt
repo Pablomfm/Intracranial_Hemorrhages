@@ -138,7 +138,7 @@ DATABASES INFO
 		· antiplatelets
 		· chemotherapeutics
 		· digoxin
-		· n_other_drugs
+		· n_other_medications
 		· aceis
 		· arbs
 		· ccbs
