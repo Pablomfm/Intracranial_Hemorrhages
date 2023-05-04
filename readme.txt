@@ -20,8 +20,8 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 	'ICH_database_complete.xlsx' (not available in this repository for privacy issues) --> 	
 	--(...)--> 'ICH_database_pseudoanonymized_nonredudant.csv' (not available in this repository for privacy issues) -->
 
-	--(1. Anonymization 2)--> 'ICH_database_anonymized.csv' -->
-	--(2. Cleaning & Curation)--> 'ICH_database.csv'/'ICH_database_metadata.csv'/'ICH_database.rds' -->
+	--(1. Anonymization 2 (R))--> 'ICH_database_anonymized.csv' -->
+	--(2. Cleaning & Curation (R))--> 'ICH_database.csv'/'ICH_database_metadata.csv'/'ICH_database.rds' -->
 	--(3. Save the dataset in Python-HDF5)--> 'ICH_database.hdf5' -->
 	--> ...
 
@@ -34,7 +34,7 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 
 	--(4.1. EDA & Descriptive Statistics of Outcomes)--> EDA & Descriptive Statistics of outcomes
 	--(4.2. EDA & Descriptive Statistics of Predictors)--> EDA & Descriptive Statistics of predictors
-	--(5. Inferential Statistics)--> Hypothesis contrasts
+	--(5. Inferential Statistics (R))--> Hypothesis contrasts
 
 	--(6. PCAs & SVM)--> PCAs-SVM model
 	--(7. Kernel Regressions)--> Kernel Regressions models	
@@ -110,7 +110,7 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 
 	· 'B. Loading the dataset in R': describe the best options to load the dataset in R.
 
-    	· '1. Anonymization 2': load 'ICH_database_nonredudant_pseudoanonymized.csv' and generate 'ICH_database_anonymized.csv'. In a first step, all patient identifiers (IDs,...) were removed. Now this Notebook conducts a second anonymization step, that consists in the anonymization of the dates. This kind of data may contain information which can help to identify patients, so it will be safer to anonymize all variables containing dates. However, to avoid the loss of information three new variables will be generated and added to the database: Time between head CT scan and blood analysis (days), Age at the hospital admission date (years), Survival days after admission (days). This Notebook will conduct this second anonymization step including the following sub-steps:
+    	· '1. Anonymization 2 (R)': load 'ICH_database_nonredudant_pseudoanonymized.csv' and generate 'ICH_database_anonymized.csv'. In a first step, all patient identifiers (IDs,...) were removed. Now this Notebook conducts a second anonymization step, that consists in the anonymization of the dates. This kind of data may contain information which can help to identify patients, so it will be safer to anonymize all variables containing dates. However, to avoid the loss of information three new variables will be generated and added to the database: Time between head CT scan and blood analysis (days), Age at the hospital admission date (years), Survival days after admission (days). This Notebook will conduct this second anonymization step including the following sub-steps:
 
 		1. Load data
 		2. Change the dates into Date types
@@ -118,7 +118,7 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 		4. Anonymize the dates and save the anonymized database.
 
 
-    	· '2. Cleaning & Curation': load 'ICH_database_anonymized.csv' & 'ICH_database_anonymized_metadata.csv' and generate 'ICH_database.csv' & 'ICH_database_metadata.csv' after the following steps.
+    	· '2. Cleaning & Curation (R)': load 'ICH_database_anonymized.csv' & 'ICH_database_anonymized_metadata.csv' and generate 'ICH_database.csv' & 'ICH_database_metadata.csv' after the following steps.
 		
 		1. Load the database
 		2. Check variables: datatypes and values
@@ -135,14 +135,18 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 		3. Change to categories when appropriate.
 		4. Check datatypes and save in a hdf5 file.
 
-    	· '4.1 EDA & Descriptive Statistics of Outcomes': exploring data analysis and descriptive statistics of the variables contained in 'ICH_cured.csv'. This Notebook contains the following steps:
+    	· '4.1 EDA & Descriptive Statistics of Outcomes': exploring data analysis and descriptive statistics of the priori outcome variables contained in 'ICH_cured.csv'. This Notebook contains the following steps:
 
-		1. Load data and metadata.
-		2. Define some useful functions for further analysis.
+		1. Define some useful functions for further analysis.
+		2. Load data and metadata.
 		3. Check the pandas datatype and the a priori variable type of the dataset variables.
 		4. Exploring and making a statistical description of the a priori outcome variables.
 
 
+    	· '4.2 EDA & Descriptive Statistics of Predictors': exploring data analysis and descriptive statistics of the a priori predictor variables contained in 'ICH_cured.csv'. This Notebook contains the following steps:
+		1. Load data and metadata.
+		2. Check the pandas datatype and the a priori variable type of the dataset variables.
+		3. Exploring and making a statistical description of the a priori predictor variables.
 
 
 
