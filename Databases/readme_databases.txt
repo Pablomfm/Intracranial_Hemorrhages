@@ -83,6 +83,7 @@ DATABASES INFO
 		· age
 		· hospital
 
+
 	OUTCOMES
 		· follow_up
 		· final_outcome
@@ -98,6 +99,9 @@ DATABASES INFO
 		· survival_5y
 		· survive
 		· survival_days
+
+
+	OUTCOMES/PREDICTORS
 		· hospitalizations_1y
 		· hospitalizations_3y
 		· hospitalizations_5y
