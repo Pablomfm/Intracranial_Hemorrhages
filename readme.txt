@@ -35,21 +35,21 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 	2.2 (Data Loading, Statistical Analysis and Machine Learning Modeling)
 	----------------------------------------------------------------------
 
-	--(A. Loading the dataset in python)------------------------> Options to load the dataset in R.
-	--(B. Loading the dataset in R)-----------------------------> Options to load the dataset in python.
+	--(A. Loading the dataset in python)-----------------------> Options to load the dataset in R.
+	--(B. Loading the dataset in R)----------------------------> Options to load the dataset in python.
 
-	--(4.1. EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes
-	--(4.2. EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors
-	--(5.1. Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts
-	--(5.2. Inferential Statistics - Survival Analysis (R))-----> Survival analysis
+	--(4.1 EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes
+	--(4.2 EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors
+	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts
+	--(5.2 Inferential Statistics - Survival Analysis (R))-----> Survival analysis
 
-	--(6. PCAs & SVM)-------------------------------------------> PCAs-SVM model
-	--(7. Kernel Regressions)-----------------------------------> Kernel Regressions models	
-	--(8. K-Nearest Neighbors)----------------------------------> KNN models
-	--(9. Association Algorithms)-------------------------------> APPROACH and Eclat results.
-	--(10. Decision Trees & Random Forest)----------------------> Decision Trees and Random Forest models.
-	--(11. Bayesian Networks)-----------------------------------> Bayesian models.
-	--(12. Deep Neural Networks)--------------------------------> Deep neural networks models.
+	--(6. PCAs & SVM)------------------------------------------> PCAs-SVM model
+	--(7. Kernel Regressions)----------------------------------> Kernel Regressions models	
+	--(8. K-Nearest Neighbors)---------------------------------> KNN models
+	--(9. Association Algorithms)------------------------------> APPROACH and Eclat results.
+	--(10. Decision Trees & Random Forest)---------------------> Decision Trees and Random Forest models.
+	--(11. Bayesian Networks)----------------------------------> Bayesian models.
+	--(12. Deep Neural Networks)-------------------------------> Deep neural networks models.
 
 
 
