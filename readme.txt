@@ -18,12 +18,17 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 	2.1 (Anonymization, Cleaning and Curation)
 	------------------------------------------
 
-	'ICH_database_complete.xlsx' (not available in this repository due to privacy issues) --> 	
+	'ICH_database_complete.xlsx' (not available in this repository due to privacy issues) -->
+ 	
 	--(...)--> 'ICH_database_pseudoanonymized_nonredudant.csv' (not available) ------------->
 
 	--(1. Anonymization 2 (R))--------------> 'ICH_database_anonymized.csv' ---------------->
-	--(2. Cleaning & Curation (R))----------> 'ICH_database.csv'/'ICH_database_metadata.csv'/'ICH_database.rds' -->
+
+	--(2. Cleaning & Curation (R))----------> 'ICH_database.csv'/'ICH_database.rds' & 
+	                                          'ICH_database_metadata.csv'------------------->
+
 	--(3. Save the dataset in Python-HDF5)--> 'ICH_database.hdf5' -------------------------->
+
 	--> ...
 
 
