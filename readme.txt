@@ -1,9 +1,7 @@
 
+
 PROJECT INFORMATION
 -------------------
-
-Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiranda@gmail.com).
-
 
 
 1. ABSTRACT
