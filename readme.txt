@@ -34,7 +34,8 @@ Authors: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiran
 
 	--(4.1. EDA & Descriptive Statistics of Outcomes)--> EDA & Descriptive Statistics of outcomes
 	--(4.2. EDA & Descriptive Statistics of Predictors)--> EDA & Descriptive Statistics of predictors
-	--(5. Inferential Statistics (R))--> Hypothesis contrasts
+	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts
+	--(5.2 Inferential Statistics - Survival Analysis (R))--> Survival analysis
 
 	--(6. PCAs & SVM)--> PCAs-SVM model
 	--(7. Kernel Regressions)--> Kernel Regressions models	
