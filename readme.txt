@@ -1,7 +1,9 @@
 
-
 PROJECT INFORMATION
 -------------------
+
+Author: Pablo Menéndez Fernández-Miranda MD, PhD.
+
 
 
 1. ABSTRACT
@@ -153,6 +155,13 @@ PROJECT INFORMATION
 		2. Check the pandas datatype and the a priori variable type of the dataset variables.
 		3. Exploring and making a statistical description of the a priori predictor variables.
 
+
+    	· '5.1 Inferential Statistics - Hypothesis Contrasts (R)': this Notebook is designed to do an statistical analysis following the standards of biostatistics for multiple variables (False Discovery Rate - FDR correction of p-values was included):
+
+		1. Load dataset and metadata.
+		2. Assumption of normality.
+		3. Correlation analysis.
+		4. Statistical tests: hypothesis contrasts.
 
 
 
