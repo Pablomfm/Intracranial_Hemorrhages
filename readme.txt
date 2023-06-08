@@ -2,7 +2,10 @@
 PROJECT INFORMATION
 -------------------
 
-Author: Pablo Menéndez Fernández-Miranda MD, PhD.
+
+
+
+	* WARNING - GitHub does not render all HTML content, to view all representations copy and paste Notebook links on https://nbviewer.org.
 
 
 
@@ -41,10 +44,11 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD.
 	--(4.1 EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes
 	--(4.2 EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors
 	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts
-	--(5.2 Inferential Statistics - Survival Analysis (R))-----> Survival analysis
+	--(5.2 Inferential Statistics - Survival Analysis)---------> Survival analysis
 
-	--(6. PCAs & SVM)------------------------------------------> PCAs-SVM model
-	--(7. Kernel Regressions)----------------------------------> Kernel Regressions models	
+	--(6. Dimensionality reduction - PCAs & FA.)---------------> PCAs & FA.
+	--(7. Kernel Methods - SVM & SSVM)-------------------------> SVM & SSVM
+	
 	--(8. K-Nearest Neighbors)---------------------------------> KNN models
 	--(9. Association Algorithms)------------------------------> APPROACH and Eclat results.
 	--(10. Decision Trees & Random Forest)---------------------> Decision Trees and Random Forest models.
