@@ -2,6 +2,7 @@
 PROJECT INFORMATION
 -------------------
 
+Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmiranda@gmail.com).
 
 
 
@@ -37,23 +38,26 @@ PROJECT INFORMATION
 
 	2.2 (Data Loading, Statistical Analysis and Machine Learning Modeling)
 	----------------------------------------------------------------------
+	
+	Data Loading
 
 	--(A. Loading the dataset in python)-----------------------> Options to load the dataset in R.
 	--(B. Loading the dataset in R)----------------------------> Options to load the dataset in python.
 
-	--(4.1 EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes
-	--(4.2 EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors
-	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts
-	--(5.2 Inferential Statistics - Survival Analysis)---------> Survival analysis
-
-	--(6. Dimensionality reduction - PCAs & FA.)---------------> PCAs & FA.
-	--(7. Kernel Methods - SVM & SSVM)-------------------------> SVM & SSVM
 	
-	--(8. K-Nearest Neighbors)---------------------------------> KNN models
-	--(9. Association Algorithms)------------------------------> APPROACH and Eclat results.
-	--(10. Decision Trees & Random Forest)---------------------> Decision Trees and Random Forest models.
-	--(11. Bayesian Networks)----------------------------------> Bayesian models.
-	--(12. Deep Neural Networks)-------------------------------> Deep neural networks models.
+	Statistical Analysis
+
+	--(4.1 EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes.
+	--(4.2 EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors.
+	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts.
+	--(5.2 Inferential Statistics - Survival Analysis)---------> Survival analysis.
+
+	
+	Machine Learning Modeling
+
+	--(6. Dimensionality reduction - PCAs & FA)----------------> PCAs & FA.
+	--(7. Kernel Methods - SVM & SSVM)-------------------------> SVM & SSVM.
+	--(8. RSF, GB model and AFT models)------------------------> Random Survival Forest, Gradient Boosted & Accelerated Failure Time models.
 
 
 
@@ -166,6 +170,39 @@ PROJECT INFORMATION
 		2. Assumption of normality.
 		3. Correlation analysis.
 		4. Statistical tests: hypothesis contrasts.
+
+
+	· '5.2 Inferential Statistics - Survival Analysis': this Notebook conducts a survival analysis of patients who have suffered an intracranial hemorrhage. Survival is defined as survival to hospitalization discharge. Different biostatiscal techniques are used for that purpose, including the well-known Kaplain-Meier estimator, Mantel-Cox (log-rank) test, and the state-of-the-art method for survival prediction until the last adaptations of machine learning algorithms for survival analysis, Cox Proportional Hazards regression.
+
+		1. Load dataset
+		2. Define survival variables
+		3. Survival functions
+		4. Cox Proportional Hazards regression
+
+
+	· '6. Dimensionality reduction - PCAs & FA': this Notebook explores some dimensionality reduction techniques, including Principal Component Analysis (PCA) and Factorial Analysis (FA). PCA is more appropriate for quantitative data, nevertheless, FA allows to analyze a dataset with numerical and categorical variables.
+
+		1. Load dataset
+		2. Principal Component Analysis (PCAs)
+		3. Factorial Analysis (FA)
+
+
+	· '7. Kernel Methods - SVM & SSVM': kernel methods are a type of Machine Learning algorithms used to map input data into a different multidimensional space in which data classes can be easily sepparated. Therefore, this methods are very used to solve classifcation and regression problems. A very well-knowned algorithm of this group is Support Vector Machine (SVM), which has been adapted for solving survival prediction in the named Survival Support Vector Machine (SSVM).
+
+		1. Load dataset
+		2. Support Vector Machine (SVM)
+		3. Survival Support Vector Machine (SSVM)
+
+
+	· '8. RSF, GB model and AFT models': This Notebook explores models based on Random Survival Forest and Gradient Boosted techniques, including a parametric approach for survival function estimation, the well-known Accelerated Failure Time approach.
+
+		1. Load dataset
+		2. Random Survival Forests
+		3. Gradient Boosted Model
+		4. Accelerated Failure Time Model
+
+
+	-----------------------------------------------------------------------------------------------------
 
 
 
