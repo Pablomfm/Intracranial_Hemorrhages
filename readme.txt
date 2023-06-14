@@ -49,6 +49,7 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 
 	--(4.1 EDA & Descriptive Statistics of Outcomes)-----------> EDA & Descriptive Statistics of outcomes.
 	--(4.2 EDA & Descriptive Statistics of Predictors)---------> EDA & Descriptive Statistics of predictors.
+	--(4.3 EDA & Descriptive Statistics of Dates (R))----------> EDA & Descriptive Statistics of dates.
 	--(5.1 Inferential Statistics - Hypothesis Contrasts (R))--> Hypothesis contrasts.
 	--(5.2 Inferential Statistics - Survival Analysis)---------> Survival analysis.
 
@@ -143,12 +144,14 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 		6. Change column names and re-adapt metadata_database
 		8. Save the cured database and the metadata database.
 
+
 	· '3. Save the dataset in Python-HDF5': save the dataset in a HDF5 file to easier further usage in Python. This Notebooks includes the following steps:
 
 		1. Load dataset metadata and extract an array with categorical columns index.
 		2. Load the dataset: all variables with NaN will be float64 and all variables without NaN int64.
 		3. Change to categories when appropriate.
 		4. Check datatypes and save in a hdf5 file.
+
 
     	· '4.1 EDA & Descriptive Statistics of Outcomes': exploring data analysis and descriptive statistics of the priori outcome variables contained in 'ICH_cured.csv'. This Notebook contains the following steps:
 
@@ -159,9 +162,17 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 
 
     	· '4.2 EDA & Descriptive Statistics of Predictors': exploring data analysis and descriptive statistics of the a priori predictor variables contained in 'ICH_cured.csv'. This Notebook contains the following steps:
+
 		1. Load data and metadata.
 		2. Check the pandas datatype and the a priori variable type of the dataset variables.
 		3. Exploring and making a statistical description of the a priori predictor variables.
+
+
+    	· '4.3 EDA & Descriptive Statistics of Dates (R)': this Notebook analyzes the relevant dates, which have been deleted in the databases shared in the repository for anonymization purposes.
+
+		1. Load data
+		2. Change dates into Date types
+		3. Descriptive statistics
 
 
     	· '5.1 Inferential Statistics - Hypothesis Contrasts (R)': this Notebook is designed to do an statistical analysis following the standards of biostatistics for multiple variables (False Discovery Rate - FDR correction of p-values was included):
@@ -201,8 +212,5 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 		3. Gradient Boosted Model
 		4. Accelerated Failure Time Model
 
-
 	-----------------------------------------------------------------------------------------------------
-
-
 
