@@ -1,3 +1,4 @@
+
 DATABASES INFO
 --------------
 
@@ -21,13 +22,13 @@ DATABASES INFO
 2. DATABASES
 -------------
 
-	· 'ICH_database_complete.xlsx': complete database. NOT AVAILABLE
+	· 'ICH_database_complete.xlsx': complete database.
 
-	· 'ICH_database_complete_pseudoanonymized.xlsx': database without patients identifiers (NHC, ID, Hospital...) in .xlsx. NOT AVAILABLE
+	· 'ICH_database_complete_pseudoanonymized.xlsx': database without patients identifiers (NHC, ID, Hospital...) in .xlsx.
 
-	· 'ICH_database_complete_pseudoanonymized.csv': database without patients identifiers (NHC, ID, Hospital...) in .csv. NOT AVAILABLE
+	· 'ICH_database_complete_pseudoanonymized.csv': database without patients identifiers (NHC, ID, Hospital...) in .csv.
 
-        · 'ICH_database_nonredudant_pseudoanonymized.csv': 'ICH_database_complete_pseudoanonymized.csv' without some redundant or non-useful columns. NOT AVAILABLE
+        · 'ICH_database_nonredudant_pseudoanonymized.csv': 'ICH_database_complete_pseudoanonymized.csv' without some redundant or non-useful columns.
 
         · 'ICH_database_anonymized.csv': 'ICH_database_nonredudant_pseudoanonymized.csv' fully anonymized by the:
 		- Anonymization of: Fecha de ingreso, Fecha de alta, Fecha de TC, Fecha análisis de sangre, Fecha nacimiento, Fecha mortalidad.
@@ -52,7 +53,7 @@ DATABASES INFO
        		- Comment: comments about the variable.
        		- Type_of_Variable: if variable is a priori an outcome (dependent) or a predictor (independent), or if the variable just contains additional information about the dataset (auxiliary).
 
-	· 'ICH_database_anonymized_metadata.xls': same as 'ICH_database_anonymized_metadata.csv' but in .xls. NOT AVAILABLE
+	· 'ICH_database_anonymized_metadata.xls': same as 'ICH_database_anonymized_metadata.csv' but in .xls.
 
 	· 'ICH_database_metadata.csv': file with information about the variables of 'ICH_database.csv'. This file contains the following variables:
 		- Variable_Name: name of the variable (spanish).
@@ -100,6 +101,8 @@ DATABASES INFO
 		· survive
 		· survival_days
 
+		· neurosurg (detailed also below in treatment of the ICH)
+		· interprocedures (detailed also below in treatment of the ICH)
 
 	OUTCOMES/PREDICTORS
 		· hospitalizations_1y
@@ -255,3 +258,10 @@ DATABASES INFO
 		OTHER BLOOD ANALYSIS VARIABLES
 		· maxfibrinogen
 		· time_between_CT_bloodanalysis
+
+
+
+
+
+
+
