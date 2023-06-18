@@ -15,6 +15,8 @@ Author: Pablo Menéndez Fernández-Miranda MD, PhD (pablomenendezfernandezmirand
 
 	* THIS PROJECT IS STILL ONGOING!!!!
 
+The aim of this project is to find new prognostic factors of ICH and develop a risk stratification tool, with the premise of being easy-to-implement and use. For that purpose data from more than 160 variables belonging to 300 patients were collected. The results showed that glucose levels, prothrombin activity, hours from the clinical onset, Glasgow Coma Scale, and the comorbidity associated, were prognosis factors for survival. The models with highest performance (c-index) were those based on Cox regression, with up to 0.84 95% CI (0.75,0.90). There, a Cox model based on five clinical variables is proposed as a potential tool to aid in decision making for patients with ICH, although further clinical validation studies is required.
+
 
 2. PROJECT WORKFLOW SUMMARY
 ---------------------------
